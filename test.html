@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+    <!--petite tricherie pour la nav-bar-->
+    <header>
+        <img class="headerImg w-100" src="Capture d’écran 2022-09-19 à 09.56.02.png" alt="barre de nav">
+    </header>
+    <div class="container">
+        <!--Actu 974-->
+        <div class="col-12">
+            <div class="row flex-column">
+                <div class="col">
+                    <h1 class="titre col text-center">974 TV</h1>
+                </div>
+                <div class="col">
+                    <h1 class="traiBleu text-center">|||</h1>
+                </div>
+            </div>
+
+
+            <!-- Swiper -->
+
+
+            <div class="row">
+                <div class=" col-12 col-lg-10 swiper mySwiper">
+
+                    <div class="col swiper-wrapper" id="sliderActu">
+                        <!--Les éléments crées en JS apparaissent ici-->
+
+                    </div>
+                    <div class="col d-none d-lg-block d-xl-block swiper-button-next "></div>
+                    <div class="col d-none d-lg-block d-xl-block swiper-button-prev "></div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+
+            <!--partie voir plus-->
+            <div class="voirPlusDiv row ">
+                <div class="annimationDiv d-flex justify-content-end" >
+                    <a class="voirPlus text-decoration-none me-2" id="annimationFlecheActu"
+                        href="https://www.departement974.fr/replay-tv-actualite" target="_blank">Voir plus de vidéos
+                    </a>
+                    <p id="flecheActu" class="me-3"> &#8594; </p>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!--Magasine 974-->
+        <div class="col-12">
+            <div class="row flex-column">
+                <div class="col">
+                    <h1 class="titre col text-center">974 MAGASINE</h1>
+                </div>
+                <div class="col">
+                    <h1 class="traiBleu text-center">|||</h1>
+                </div>
+            </div>
+
+
+            <!-- Swiper -->
+
+
+            <div class="row">
+                <div class=" col-12 col-lg-10 swiper mySwiper">
+
+                    <div class="col swiper-wrapper" id="sliderMagasine">
+                        <!--Les éléments crées en JS apparaissent ici-->
+
+                    </div>
+                    <div class="col d-none d-lg-block d-xl-block swiper-button-next "></div>
+                    <div class="col d-none d-lg-block d-xl-block swiper-button-prev "></div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--partie voir plus-->
+        <div class="voirPlusDiv row ">
+            <div class="annimationDiv d-flex justify-content-end" >
+                <a class="voirPlus text-decoration-none me-2" id="annimationFlecheMagasine" href="https://www.departement974.fr/replay-tv-actualite"
+                    target="_blank">Voir plus de vidéos
+                </a>
+                <p id="flecheMagasine" class="me-3"> &#8594; </p>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="test.js"></script>
+</body>
+
+</html>

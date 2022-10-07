@@ -1,0 +1,28 @@
+.titre {
+
+  color: #0032a0;
+}
+.traiBleu {
+
+  color: #0032a0;
+}
+.voirPlus,
+#flecheMagasine,
+#flecheActu {
+
+  color: #0032a0;
+}
+
+.fleche {
+  animation: 1s linear infinite fleche;
+}
+
+@keyframes fleche {
+  from {
+    transform: translateX(-0.5em);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
